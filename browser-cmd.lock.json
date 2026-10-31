@@ -1,0 +1,39 @@
+{
+  "host": "codex",
+  "host_version": "codex-cli 0.166.0",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "web_tools": true,
+  "subagents": false,
+  "skill_sha256": "3cd714ca1c85ba5449796bc5527d76197bc9424c710832ec9cd9925c531820a8",
+  "review": "gpt-6.1-terra",
+  "tasks": 100,
+  "workers": 3,
+  "timeout_seconds": 3600,
+  "binary_source": "build",
+  "binary_sha256": "63296bc812ee34b3fb41a94b72e96863beedeade709ba6af3e11ccecab3d1b7a",
+  "plugin_sha256": "292ef4fd05e07a1492bdf0ac97c19bbd753c2afd4b224801c90d592ca429f707",
+  "tasks_sha256": "afa8f813eff9a9e9bab02877d9a321113fd94235260682ebea30cf8d4b3cdd47",
+  "as_of": "2026-10-31",
+  "browser": "launched headless per task",
+  "proxied_tasks": [
+    "0a58ebe0-9d6c-4839-9b09-d909271bb1f9",
+    "18ac2735-e471-4784-8560-16cb6eacf3d0",
+    "33f4cc19-2380-42bc-95fa-338e83d5ddaf",
+    "7966e6bd-f197-43d0-9ee5-88fab61c8c36",
+    "a07c4b00-b17d-4215-abb1-ee10a85fecf2",
+    "a43a8cbc-0e3d-465b-89e8-1fb86adf511c",
+    "a4662c0f-1cb1-4208-a6bb-932735a3f007",
+    "d61e1671-f68b-4c9a-bf8a-ef437f17901c"
+  ],
+  "git_head": "f931fdaa57440235d95e7f20e04f54575fa48cd8",
+  "dirty_worktree": false,
+  "source_sha256": "298fdea4a16d2ad66f0aab029b4c8d6248673cd1e6964495a9268d24beef6342",
+  "judges": {
+    "gpt-5.5": "published BU Bench V1 judge prompts, ground truth, last 10 screenshots",
+    "gpt-5.6-sol": "published BU Bench V1 judge prompts, ground truth, last 10 screenshots",
+    "claude-opus-5-5": "published BU Bench V1 judge prompts, ground truth, last 10 screenshots",
+    "gemini-2.5-flash": "published BU Bench V1 judge prompts, ground truth, last 10 screenshots"
+  },
+  "evidence_archive_sha256": "9496859174fd709831b1cb738d4957f1936e1c1c90f8ee7cf3c14a047db2ac77"
+}

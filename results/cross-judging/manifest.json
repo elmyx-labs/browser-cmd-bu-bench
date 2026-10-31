@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-11-08",
+  "tasks": 100,
+  "protocols": [
+    "bu-v1",
+    "aside"
+  ],
+  "judges": [
+    "gpt-5.5",
+    "gemini-2.5-flash",
+    "gpt-5.6-sol",
+    "claude-opus-5-5"
+  ],
+  "runs": [
+    "browser-cmd"
+  ],
+  "browser_cmd_run": "bu100-20261031-full2",
+  "aside_source": {
+    "repository": "https://github.com/at-inc/aside-benchmarks",
+    "commit": "7cde728f6af4ba10065fc9e0557762d0e156d3dd",
+    "grader_path": "bu-bench-v1/runner/grader.ts",
+    "grader_sha256": "c0a32d7c80c99cdbce450aa5c516359c0bc23469054c71ddfff15cdb8a40072a"
+  },
+  "manual_failure_task_ids": [
+    "7966e6bd-f197-43d0-9ee5-88fab61c8c36"
+  ],
+  "records": [
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "gpt-5.5",
+      "path": "results/judges/gpt-5.5.json",
+      "sha256": "94654a57e6d5908bcd7be053d5da757239f824e71125f12944165eddb258aac1",
+      "private_source_sha256": "94654a57e6d5908bcd7be053d5da757239f824e71125f12944165eddb258aac1"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "gemini-2.5-flash",
+      "path": "results/judges/gemini-2.5-flash.json",
+      "sha256": "440a956b717e98e52d3a275c472ef549180ca5954b573a51178397cc72952fbd",
+      "private_source_sha256": "440a956b717e98e52d3a275c472ef549180ca5954b573a51178397cc72952fbd"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "gpt-5.6-sol",
+      "path": "results/judges/gpt-5.6-sol.json",
+      "sha256": "ffe8d33c225de5f874ec35104ac691bf88469c86ce6d1d3e4d6af6bd1d6c2f1b",
+      "private_source_sha256": "ffe8d33c225de5f874ec35104ac691bf88469c86ce6d1d3e4d6af6bd1d6c2f1b"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "claude-opus-5-5",
+      "path": "results/judges/claude-opus-5-5.json",
+      "sha256": "cbdb63152aacfcc03d8facd32d232efa1ca98f9a51b08c6b819212d105fba9d7",
+      "private_source_sha256": "cbdb63152aacfcc03d8facd32d232efa1ca98f9a51b08c6b819212d105fba9d7"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "gpt-5.5",
+      "path": "results/cross-judging/browser-cmd/aside/gpt-5.5.json",
+      "sha256": "07e9c781da3243e91f3fc8733eb24b53993e0298b27e48abdc108208c91cd0ad",
+      "private_source_sha256": "cf13195b2997dfa414670409e1c6a9416bd4657c73cf46ab8f31f73839e40650"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "gemini-2.5-flash",
+      "path": "results/cross-judging/browser-cmd/aside/gemini-2.5-flash.json",
+      "sha256": "25e8f0d5c0fed924b4338f8aff1ed3d25e50b0cd14444cbe96568c40d5562fb6",
+      "private_source_sha256": "ac3aec3b79f2c8cab3d9fdde8b2499be5cf1ca98173b95d8abf18a401702b8ff"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "gpt-5.6-sol",
+      "path": "results/cross-judging/browser-cmd/aside/gpt-5.6-sol.json",
+      "sha256": "d0c303333bfbe1be649378e7a1a180dc6292b05abd7500adac2c4acf3fa08a5b",
+      "private_source_sha256": "8259e1961f647a5496fff7a35c53bc5b4f81fdcc0fe80c4e33243af80b62ae47"
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "claude-opus-5-5",
+      "path": "results/cross-judging/browser-cmd/aside/claude-opus-5-5.json",
+      "sha256": "b895f63341ab854ea568581f63c5e5f0d3bf0e19d545a0b95e1b09b717e80348",
+      "private_source_sha256": "96a2f09692e30667041efffaab6ace78514a8a8212c47d22ce3e1da6c237fe1d"
+    }
+  ]
+}
