@@ -1,0 +1,330 @@
+{
+  "as_of": "2026-11-08",
+  "tasks_per_score": 100,
+  "scores": [
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "gpt-5.5",
+      "raw_pass": 97,
+      "counted_pass": 96,
+      "impossible": 2,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 17
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "gemini-2.5-flash",
+      "raw_pass": 97,
+      "counted_pass": 96,
+      "impossible": 1,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 17
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "gpt-5.6-sol",
+      "raw_pass": 95,
+      "counted_pass": 94,
+      "impossible": 2,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 16,
+          "counted_pass": 15
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "judge": "claude-opus-5-5",
+      "raw_pass": 89,
+      "counted_pass": 89,
+      "impossible": 4,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 18
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 17,
+          "counted_pass": 17
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 15,
+          "counted_pass": 15
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "gpt-5.5",
+      "raw_pass": 98,
+      "counted_pass": 97,
+      "impossible": 2,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 17
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "gemini-2.5-flash",
+      "raw_pass": 97,
+      "counted_pass": 96,
+      "impossible": 2,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 17
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "gpt-5.6-sol",
+      "raw_pass": 97,
+      "counted_pass": 96,
+      "impossible": 2,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 17
+        }
+      }
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "judge": "claude-opus-5-5",
+      "raw_pass": 96,
+      "counted_pass": 95,
+      "impossible": 2,
+      "categories": {
+        "BrowseComp": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "GAIA": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "InteractionTests": {
+          "tasks": 20,
+          "raw_pass": 20,
+          "counted_pass": 20
+        },
+        "OM2W2": {
+          "tasks": 20,
+          "raw_pass": 19,
+          "counted_pass": 19
+        },
+        "WebBenchREAD": {
+          "tasks": 20,
+          "raw_pass": 18,
+          "counted_pass": 17
+        }
+      }
+    }
+  ],
+  "consensus": [
+    {
+      "run": "browser-cmd",
+      "protocol": "bu-v1",
+      "raw_unanimous_pass": 87,
+      "counted_unanimous_pass": 87,
+      "unanimous_fail": 2,
+      "disagreement": 11
+    },
+    {
+      "run": "browser-cmd",
+      "protocol": "aside",
+      "raw_unanimous_pass": 95,
+      "counted_unanimous_pass": 94,
+      "unanimous_fail": 2,
+      "disagreement": 3
+    }
+  ],
+  "protocol_agreement": [
+    {
+      "run": "browser-cmd",
+      "judge": "gpt-5.5",
+      "same_verdict": 99,
+      "delta_raw_pass": 1
+    },
+    {
+      "run": "browser-cmd",
+      "judge": "gemini-2.5-flash",
+      "same_verdict": 100,
+      "delta_raw_pass": 0
+    },
+    {
+      "run": "browser-cmd",
+      "judge": "gpt-5.6-sol",
+      "same_verdict": 98,
+      "delta_raw_pass": 2
+    },
+    {
+      "run": "browser-cmd",
+      "judge": "claude-opus-5-5",
+      "same_verdict": 93,
+      "delta_raw_pass": 7
+    }
+  ]
+}
